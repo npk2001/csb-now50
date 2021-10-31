@@ -1,0 +1,56 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#bear {
+  position: absolute;
+  left: 100px;
+  /*top: 240px;*/
+  width: 100px;
+  height: 160px;
+}
+
+#bee {
+  position: absolute;
+  left: 100px;
+  /*top: 240px;*/
+  width: 50px;
+  height: 60px;
+}
+
+#board {
+  position: absolute;
+  height: 600px;
+  width: 100%;
+  background-color: rgb(6, 106, 136);
+  align-content: center;
+  align-self: center;
+}
+
+#title {
+  background-color: rgb(63, 145, 151);
+  align-content: center;
+  align-self: center;
+  overflow: hidden;
+  padding: 20px;
+}
+
+#scores {
+  background-color: rgb(45, 92, 194);
+  align-content: center;
+  align-self: center;
+}
+
+.location {
+  color: rgb(141, 132, 53);
+}
+
+#hits {
+  color: red;
+}
+
+#duration {
+  color: rgb(80, 168, 87);
+}
